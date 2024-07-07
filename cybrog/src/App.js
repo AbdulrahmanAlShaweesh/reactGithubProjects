@@ -4,8 +4,11 @@ import { Header, Container, Footer } from "./Components/index";
 const App = () => {
   return (
     <>
-      <Header color='pink'/>
-      <Container />
+      <Header />
+      <Container>
+        {/* Inside this component we can write as much as we could of component "containerss" */}
+        Components
+      </Container>
       <Footer />
     </>
   );
