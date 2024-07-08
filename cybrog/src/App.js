@@ -1,5 +1,6 @@
 import React from "react";
-import { Header, Container, Footer } from "./Components/index";
+import { Header, Container, Footer, Hero } from "./Components/index";
+import './App.css'; 
 
 const App = () => {
   return (
@@ -7,9 +8,9 @@ const App = () => {
       <Header />
       <Container>
         {/* Inside this component we can write as much as we could of component "containerss" */}
-        Components
+          <Hero/>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

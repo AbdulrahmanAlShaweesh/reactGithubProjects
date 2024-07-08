@@ -4,7 +4,7 @@ import './Container.css';
 const Container = (props) => {
   return (
     <>
-      <h1>{props.children}</h1>
+      <div className="container main-container">{props.children}</div>
     </>
   );
 };
